@@ -1,3 +1,3 @@
-# My-Project1
+# My-Projects
 
-This is my Project5 in Spalah IT-School
+This is my Projects in Spalah IT-School
