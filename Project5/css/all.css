@@ -206,34 +206,34 @@ h1 {
 .right {
 	float:right;
 }
-.fb {
+.facebook {
 	background-color: #375696;
 }
-.about-members a.fb:before {
+.about-members a.facebook:before {
 	background-position: 0 0;
 }
-.g {
+.google {
 	background-color: #d14333;
 }
-.about-members a.g:before {
+.about-members a.google:before {
 	background-position: -35px 0;
 }
-.unk {
+.dribble {
 	background-color: #e94b87;
 }
-.about-members a.unk:before {
+.about-members a.dribble:before {
 	background-position: -104px 0;
 }
-.tw {
+.twitter {
 	background-color: #00aced;
 }
-.about-members a.tw:before {
+.about-members a.twitter:before {
 	background-position: -70px 0;
 }
-.you {
+.you-tube {
 	background-color: #c60b0b;
 }
-.about-members a.you:before {
+.about-members a.you-tube:before {
 	background-position: -140px 0;
 }
 .promotion {
@@ -582,6 +582,10 @@ div.form:last-child {
 .nav-in-footer li a {
 	color: #fff;
 }
+.links a:hover,
+.nav-in-footer li a:hover {
+	text-decoration: underline;
+}
 .links {
 	float: left;
 }
@@ -877,6 +881,9 @@ div.form:last-child {
 	}
 	.about-members {
 		border-spacing: 0 15px;
+	}
+	.about-members img {
+		float: left;
 	}
 	.about-members a {
 		width: 50%;
